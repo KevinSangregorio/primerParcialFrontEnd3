@@ -15,16 +15,16 @@ class Layout extends React.Component {
 
   historial = [];
 
-  //   componentDidMount() {
-  //       const name = prompt('Bienvenidx! Como te llamas?');
-  //       alert(`Que bello nombre tienes ${name}, espero que disfrutes esta historia!`)
-  //   }
+    componentDidMount() {
+        const name = prompt('Bienvenidx! Como te llamas?');
+        alert(`Que bello nombre tienes ${name}, espero que disfrutes esta historia!`)
+    }
 
-//   componentWillUnmount() {
-//     if (this.state.count >= 7) {
-//       alert("Has concluido este viaje...gracias vuelva prontos!");
-//     }
-//   }
+  componentWillUnmount() {
+    if (this.state.count >= 7) {
+      alert("Has concluido este viaje...gracias vuelva prontos!");
+    }
+  }
 
   handlePath = (letraElegida) => {
     const letra = letraElegida;
@@ -126,11 +126,12 @@ class Layout extends React.Component {
       });
       this.historial.push(letra);
     }
-    console.log("==============================================="); //sacar luego
-    console.log("Estado de count: "+this.state.count); //sacar luego
-    console.log("Letra elegida: "+letra); //sacar luego
-    console.log("Historial: "+this.historial); //sacar luego
-    console.log("Letra STATE elegida: "+this.state.chosenLetter); //sacar luego
+    // console.log("==============================================="); 
+    // console.log("Estado de count: "+this.state.count); 
+    // console.log("Letra elegida: "+letra); 
+    // console.log("Historial: "+this.historial); 
+    // console.log("Letra STATE elegida: "+this.state.chosenLetter); 
+    // console.log(data); 
   };
 
   render() {
