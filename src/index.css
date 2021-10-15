@@ -61,3 +61,25 @@
   position: relative;
   top: 1px;
 }
+
+.swal-modal {
+  color: red;
+  background-color: #fff;
+}
+
+.swal-footer {
+  background-color: #fff;
+}
+
+.swal-text {
+  background-color: #fff;
+  color: #000;
+}
+
+.swal-title {
+  background-color: #fff;
+}
+
+.swal-icon--success__ring {
+  background-color: transparent;
+}
